@@ -8,7 +8,7 @@ export default function NavTabs() {
     <header className="border-b border-neutral-200">
       <div className="mx-auto max-w-5xl px-6">
         <div className="flex items-center justify-between pt-8">
-          <span className="text-lg font-semibold tracking-tight">Jordan Reyes</span>
+          <span className="text-lg font-semibold tracking-tight">Oskar Küch</span>
           <nav className="flex gap-8">
             <NavLink
               to="/"
