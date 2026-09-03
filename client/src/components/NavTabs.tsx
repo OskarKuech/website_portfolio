@@ -21,7 +21,7 @@ export default function NavTabs() {
                 }`
               }
             >
-              Writing
+              Artikel
             </NavLink>
             <NavLink
               to="/about"

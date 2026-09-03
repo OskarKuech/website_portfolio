@@ -48,7 +48,7 @@ export default function Landing() {
         />
       </div>
 
-      {loading && <p className="text-sm text-neutral-500">Loading articles...</p>}
+      {loading && <p className="text-sm text-neutral-500">Loading articles (this may take a few seconds)...</p>}
       {error && <p className="text-sm text-red-600">{error}</p>}
 
       {!loading && !error && articles.length === 0 && (
